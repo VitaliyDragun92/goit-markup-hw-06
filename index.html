@@ -6,7 +6,7 @@
     <title>Web Studio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -23,7 +23,7 @@
 
           <ul class="auth-nav list">
             <li class="item">
-              <a class="link-menu" href="info@devstudio.com"
+              <a class="link-menu" href="mailto:info@devstudio.com"
                 ><svg class="icon-nav" width="16" height="12">
                   <use href="./img/sprite.svg#envelope"></use>
                 </svg>
@@ -31,7 +31,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="link-menu" href="+38 096 111 11 11">
+              <a class="link-menu" href="tel:+380961111111">
                 <svg class="icon-nav" width="16" height="12">
                   <use href="./img/sprite.svg#smartphone"></use>
                 </svg>
@@ -384,6 +384,17 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div>
+          <label class="form-field">
+            <span class="form-label">Подпишитесь на рассылку</span>
+            <input type="email" class="form-input" name="mail" placeholder="E-mail" />
+          </label>
+          <button class="btn-mail">
+            Подписаться<svg class="icon-send" width="24" height="24">
+              <use href="./img/sprite.svg#icon-send"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </footer>
